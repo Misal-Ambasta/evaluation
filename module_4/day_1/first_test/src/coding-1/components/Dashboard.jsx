@@ -13,7 +13,7 @@ export default class Dashboard extends Component {
                                 <h3>email: {email}</h3>
                                 <h3>token: {token}</h3>
                             </div>
-                            
+                            {/* Render data from jsonplaceholder */}
                             {data.map(item=> <div className="databox">{item.title}</div>)}
                         </div>
                     )

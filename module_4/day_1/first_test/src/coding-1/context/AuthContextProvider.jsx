@@ -20,6 +20,7 @@ class AuthContextProvider extends Component {
             [name]: value
         })
     }
+    // fetching from jsonplaceholder
 
     async componentDidMount(){
         await axios.get("https://jsonplaceholder.typicode.com/todos").then(res=>this.setState({
@@ -30,6 +31,9 @@ class AuthContextProvider extends Component {
           })
      }
 
+
+     // Onsubmit fetching data from Reqres and authicating
+     
     onSubmit= async (e)=>{
         e.preventDefault()
         const {email,password} = this.state
