@@ -1,0 +1,97 @@
+
+/* Whole container */
+.container{
+    display: flex;
+    width: 100%;
+    
+}
+
+/* form styling */
+.container form {
+    flex: 1;
+    border: 1px solid black;
+    padding: 1.5em;
+    margin: 20px;
+
+}
+
+
+/* Filter and Sort container */
+
+.filterBox{
+    flex: 1;
+    height: 300px;
+    border: 1px solid black;
+    justify-content: center;
+    padding: 1.5em;
+    margin: 20px;
+    padding-bottom: 100px;
+
+
+}
+
+/* for all div element inside filter container */
+
+.filterBox div{
+    padding: 20px;
+}
+
+.table div{
+    padding: 8px;
+}
+
+
+/* For Submit button */
+button{
+    padding: 10px 30px;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+/* Rendering Container */
+
+.renderBox{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid black;
+    margin:20px;
+   
+}
+
+/* Remote text inside Rendering element */
+
+.remote{
+    margin-right: 100px;
+    display: flex;
+    position: relative;
+}
+
+.remote *{
+    
+    flex-direction: row;
+}
+
+/* Bubble for Remote job availability */
+
+.bubble{
+    position: absolute;
+    left:80px;
+    top:25px;
+   
+}
+
+/* Input tag inside form */
+
+.table input{
+    margin-left: 20px;
+    border: none;
+    border-bottom:2px solid black;
+    outline: none;
+}
+
+.table input:focus {
+    border-color: rgb(175, 19, 58);
+
+}
